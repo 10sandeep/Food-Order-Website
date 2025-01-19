@@ -4,8 +4,8 @@
   "description": "This is Namaste React by Sandeep Nayak",
   "main": "App.js",
   "scripts": {
-    "start":"parcel index.html",
-    "build":"build parcel index.html",
+    "start": "parcel index.html",
+    "build": "build parcel index.html",
     "test": "jest"
   },
   "keywords": [
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0"
   }
 }
