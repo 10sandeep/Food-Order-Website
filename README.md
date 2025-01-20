@@ -20,6 +20,29 @@ React wrapping this into a object and passing through the props.
  in any react application there are two layers 1.ui layer and data layer.
  these two makes a frontend application.
 
+ /**
+ * Header
+ *  - Logo
+ *  - Nav Items
+ * Body
+ *  - Search
+ *  - RestaurantContainer
+ *    - RestaurantCard
+ *      - Img
+ *      - Name of Restaurant, Star Rating, cuisine, delivery time
+ * Footer
+ *  - Copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+ */
+ 
+
+there are two type of exports
+1. named exports
+2. default exports
+
+ 
   
 
 
