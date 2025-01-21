@@ -60,10 +60,10 @@ body {
   width: 50%;
   display: flex;
   align-items: center;
-  margin: 15px auto;
-  border: 1px solid #ddd;
+  margin: 10px auto;
+  border: 2px solid #ddd;
   background: linear-gradient(to right, #ffffff, #f3f4f6);
-  padding: 10px 15px;
+  padding: 15px 15px;
   border-radius: 50px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
@@ -102,6 +102,31 @@ body {
   color: #444;
 }
 
+.filter {
+  position: absolute;
+  margin-right: 80%;
+  margin-top: 2%;
+}
+
+.filter-btn {
+  background: linear-gradient(90deg, #159e82, #4d9da3);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-left: 80px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+.filter-btn:hover {
+  background: linear-gradient(90deg, #feb47b, #ff7e5f);
+  transform: scale(1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
 .restaurant-container {
   width: 85%;
   display: flex;
@@ -142,7 +167,7 @@ body {
 
 .add-to-cart-btn:hover {
   background: linear-gradient(90deg, #feb47b, #ff7e5f);
-  transform: scale(1.05);
+  transform: scale(1);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 

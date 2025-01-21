@@ -39,10 +39,41 @@ React wrapping this into a object and passing through the props.
  
 
 there are two type of exports
-1. named exports
-2. default exports
+1. named export/import-export -export const component.import {component} from './component'. 
+2. default export/import-export default component name.import component name from "path".
 
+named export/import is used when we have imported or exported multiple components in a file.
+default export/import is used when we have only one component in a file.
+
+A library is like a toolbox—you pick the tools you need and decide how to use them.
+
+ A framework is like a template for a building—you're given the structure, and you add the details.
  
-  
+
+ CDN-keeps local copy of content geography nearer to the user.
+
+
+ # React Hooks
+
+ React hooks are normal js utility function.
+There are two types of react hooks:
+1.useState
+2.useEffect
+
+hook is used to create state variable.
+state variable maintain the state of the component.
+state variable scope is inside its component.
+//local state variable
+const [listofRestaturant] = useState([]);
+
+//normal js variable
+let listofRestaturant;
+
+if we do it in normal js variable then it will change the data but not change our ui of application.
+
+if we use state variable then it will change our data as well as ui.
+
+whenever the state variable update react re-render the component.
+
 
 

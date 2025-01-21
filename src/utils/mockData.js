@@ -1,4 +1,4 @@
-const restaurantList = [
+const resList = [
     {
       info: {
         id: "10894",
@@ -8,7 +8,7 @@ const restaurantList = [
         areaName: "BTM Layout",
         costForTwo: "₹350 for two",
         cuisines: ["Pizzas"],
-        avgRating: 4.1,
+        avgRating: 3.9,
         parentId: "721",
         avgRatingString: "4.1",
         totalRatingsString: "10K+",
@@ -114,7 +114,7 @@ const restaurantList = [
           "Indian",
           "Beverages",
         ],
-        avgRating: 4.2,
+        avgRating: 3.7,
         parentId: "433875",
         avgRatingString: "4.2",
         totalRatingsString: "1K+",
@@ -131,7 +131,7 @@ const restaurantList = [
         areaName: "JP Nagar",
         costForTwo: "₹400 for two",
         cuisines: ["Burgers", "Fast Food", "Rolls & Wraps"],
-        avgRating: 4.1,
+        avgRating: 3.7,
         parentId: "547",
         avgRatingString: "4.1",
         totalRatingsString: "10K+",
@@ -182,7 +182,7 @@ const restaurantList = [
           "Maharashtrian",
           "Sweets",
         ],
-        avgRating: 4.2,
+        avgRating: 3.5,
         parentId: "319582",
         avgRatingString: "4.2",
         totalRatingsString: "1K+",
@@ -358,4 +358,4 @@ const restaurantList = [
     },
   ];
 
-  export default restaurantList;
+  export default resList;
