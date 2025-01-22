@@ -76,4 +76,31 @@ if we use state variable then it will change our data as well as ui.
 whenever the state variable update react re-render the component.
 
 
+react will keep your ui sync with data layer.
+
+# how react run behind the scene
+in react16 
+react uses something known as reconciliation algorithm.
+
+it is also known as react fiver
+
+virtual dom is the representation of actual DOM.
+whenever something change in the ui known as reconciliation.
+
+react fiver is the new way of finding the div and updating the dom.
+# diff algorithm
+ 
+
+
+react is doing effient dom manipulation.
+
+
+why react is fast?
+
+it is fast beacause of virtual dom.
+it uses diff algorithm which is very efficiant.
+it can do efficiant dom manupulation.
+it can find out the div and update the ui.
+
+
 
